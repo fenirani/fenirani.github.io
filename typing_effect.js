@@ -1,6 +1,6 @@
 
-var i = 0;
-var j =0;
+var i = 0; // letter counter
+var j =0; //word inside of txt counter
 
 var txt =  ["Software Engineer","Front End Developer", "Gamer", "Fanstasy Football Fan"];
 var speed = 100;
