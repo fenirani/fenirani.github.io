@@ -1,3 +1,13 @@
 p{
     font-size: 40px;
 }
+
+#cursor {
+    animation: myBlinker 1s infinite step-start;
+}
+
+@keyframes myBlinker {
+    50% {
+        opacity:0;
+    }
+}
