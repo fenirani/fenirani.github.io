@@ -28,12 +28,15 @@ p{
 }
 
 img {
-
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
 }
 
 #landing-text {
     width: 30em; /* width provided because without it the picture to the left would also move */
     /*Switched from ch to em because em adjusts for font-size  */
+    align-self: center;
 }
 
 
