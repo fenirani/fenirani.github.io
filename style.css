@@ -23,7 +23,8 @@ p{
 
 #landing-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5em;
 }
 
 img {
@@ -31,7 +32,9 @@ img {
 }
 
 #landing-text {
+    width: 25ch; /* width provided because without it the picture to the left would also move */
 }
+
 
 
 
