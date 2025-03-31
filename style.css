@@ -2,6 +2,27 @@ p{
     font-size: 40px;
 }
 
+#desktop-navigation, #navigation-links {
+    display: flex;
+    align-items: center;
+}
+
+#desktop-navigation {
+    justify-content: space-around;
+}
+
+#name{
+    font-size: 2em;
+}
+
+#navigation-links {
+    gap: 2em;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+
+
 #cursor {
     animation: myBlinker 1s infinite step-start;
 }
