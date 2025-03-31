@@ -32,7 +32,8 @@ img {
 }
 
 #landing-text {
-    width: 25ch; /* width provided because without it the picture to the left would also move */
+    width: 30em; /* width provided because without it the picture to the left would also move */
+    /*Switched from ch to em because em adjusts for font-size  */
 }
 
 
