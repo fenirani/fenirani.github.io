@@ -55,6 +55,7 @@ img {
 
 #cursor {
     animation: myBlinker 1s infinite step-start;
+    font-size: 40px;
 }
 
 @keyframes myBlinker {
