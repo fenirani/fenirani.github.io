@@ -21,6 +21,18 @@ p{
     font-size: 1.5em;
 }
 
+#landing-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+
+}
+
+#landing-text {
+}
+
 
 
 #cursor {
