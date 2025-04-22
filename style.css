@@ -27,10 +27,12 @@
     display: flex;
     justify-content: center;
     gap: 5em;
-    margin-left: 160px;
-    margin-right: 160px;
     height: 85vh;
     padding-left: 30px;
+}
+
+#img-container {
+    align-self: center;
 }
 
 img {
@@ -52,6 +54,32 @@ img {
 #typingEffect
 {
     font-size: 40px;
+}
+
+#everything-else-flex {
+    display: flex;
+    height: 100vh;
+}
+
+#menu-tab{
+    width: 35%;
+    align-self: center;
+}
+
+#menu-tab-item {
+    width: 65%;
+}
+
+#navigation-bottom {
+}
+
+#navigation-bottom-links {
+    list-style: none;
+    text-align: center;
+}
+
+.spread-out {
+    margin-bottom: 5em;
 }
 
 
