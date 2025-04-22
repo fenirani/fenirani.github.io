@@ -7,8 +7,8 @@
                 <div id="name">Dominik Nef </div>
                 <div > 
                     <ul id= "navigation-links">
-                        <li> <a href="#menu-tab" onclick="about();"> About</a> </li>
-                        <li> <a href = "#menu-tab" onclick="experience();" >Experience</a> </li>
+                        <li> <a href="#menu-tab" onclick="highlight('about');"> About</a> </li>
+                        <li> <a href = "#menu-tab" onclick="highlight('experience');" >Experience</a> </li>
                         <li> <a> Projects</a> </li>
                         <li> <a> Contact </a> </li>
                     </ul>
@@ -32,15 +32,26 @@
                     <div id="menu-tab">
                         <div id="navigation-bottom"> 
                             <ul id="navigation-bottom-links">
-                                <li class="spread-out"> <a> About</a> </li>
-                                <li class="spread-out"> <a> Experience</a> </li>
-                                <li class="spread-out"> <a> Projects</a> </li>
-                                <li class="spread-out"> <a> Contact </a> </li>
+                                <li class="spread-out" id="about"> <a onclick="highlight('about')"> About</a> </li>
+                                <li class="spread-out" id="experience"> <a onclick= "highlight('experience')"> Experience</a> </li>
+                                <li class="spread-out" id= "projects"> <a onclick = "highlight('projects')"> Projects</a> </li>
+                                <li class="spread-out" id = "contact"> <a onclick= "highlight('contact')"> Contact </a> </li>
                             </ul>
                         </div>
                     </div>
                     <div id="menu-tab-item">
-                        Menu tab item goes here
+                        <section id="about-section"> About
+
+                        </section>
+                        <section id = "experience-section"> Experience
+
+                        </section>
+                        <section id = "projects-section"> Projects
+
+                        </section>
+                        <section id = "contact-section"> Contact
+
+                        </section>
                     </div>
                 </div>
             </section>

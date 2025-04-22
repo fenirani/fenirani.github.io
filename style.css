@@ -81,9 +81,18 @@ img {
     border-image: linear-gradient(to bottom, transparent 20%, black 60%, transparent 100%) 1 100%
 }
 
+#about {
+    font-size: 2em;
+}
+
+li {
+    cursor: pointer;
+}
+
 #menu-tab-item {
     width: 65%;
     align-self: center;
+    text-align: center; /* Perhaps I want it more to the left than center */
 }
 
 #navigation-bottom {
@@ -92,6 +101,11 @@ img {
 #navigation-bottom-links {
     list-style: none;
     text-align: center;
+}
+
+
+#experience-section, #projects-section, #contact-section {
+    display: none;
 }
 
 .spread-out {
