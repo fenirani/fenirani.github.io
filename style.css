@@ -1,5 +1,5 @@
 * { 
-    outline: 1px dotted red ;
+   /* outline: 1px dotted red ; */
     margin: 0px;
     padding: 0px;
 }
@@ -83,6 +83,7 @@ img {
 
 #menu-tab-item {
     width: 65%;
+    align-self: center;
 }
 
 #navigation-bottom {
