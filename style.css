@@ -74,6 +74,21 @@ img {
     height: 100vh;
 }
 
+#icons{
+    align-self: center;
+    text-align: center;
+    width: 5ch;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom:2px solid;
+    height: 40ch;
+    transition: width 1.5s;
+}
+
+#icons:hover {
+    width: 15ch;
+}
+
 #menu-tab{
     width: 35%;
     align-self: center;
